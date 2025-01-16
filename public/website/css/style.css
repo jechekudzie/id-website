@@ -81,7 +81,7 @@ h6 {
 }
 
 a {
-  color: var(--rdn-link-color);
+  color: red /* var(--rdn-link-color) */;
   transition: 0.3s;
 }
 a:hover {
@@ -122,7 +122,7 @@ p:last-child {
 }
 
 .bg_black {
-  background-color: var(--rdn-black-color);
+  background-color: #000 /* var(--rdn-black-color) */;
 }
 
 /* ========================================================================== */
@@ -272,6 +272,7 @@ p:last-child {
   top: 0;
   z-index: 333;
   transition: 0.2s;
+  background-color: var(--rdn-black-color);
 }
 
 .top_header.fixed {
@@ -280,7 +281,7 @@ p:last-child {
 }
 
 .logo img {
-  height: 32px;
+  height: 52px;
 }
 
 .header_btn.rdn_btn {
@@ -432,7 +433,7 @@ p:last-child {
 /*                                SLIDER STYLE                                */
 /* ========================================================================== */
 .home_slider {
-  background-color: var(--rdn-dark-color);
+  background-color: black /* var(--rdn-dark-color) */;
   position: relative;
   background-image: url("../img/slider/bg.svg");
   background-position: left bottom;
@@ -501,7 +502,13 @@ p:last-child {
 }
 
 .slider_content_text {
-  margin-right: -40%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding-right: 30px;
+  max-width: 100%;
 }
 
 .slider_content_img .slider_img {
@@ -2236,7 +2243,7 @@ p:last-child {
   display: flex;
   gap: 16px;
   align-items: center;
-  color: var(--rdn-heading-color);
+  color: white /* var(--rdn-heading-color) */;
 }
 .contact_box .contact_meta li img {
   width: 150px;
@@ -2249,7 +2256,7 @@ p:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--rdn-heading-color);
+  background-color: white /* var(--rdn-heading-color) */;
   border-radius: 422px;
   font-size: 0.8rem;
   color: var(--rdn-darker-color);
@@ -2259,7 +2266,7 @@ p:last-child {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--rdn-heading-color);
+  color: white /* var(--rdn-heading-color) */;
   font-size: 1rem;
 }
 .contact_list li i {
@@ -2269,7 +2276,7 @@ p:last-child {
   align-items: center;
   justify-content: center;
   background-color: var(--rdn-heading-color-10);
-  color: var(--rdn-heading-color);
+  color: white /* var(--rdn-heading-color) */;
   border-radius: 100px;
   font-size: 0.8rem;
   transition: 0.3s;
@@ -2355,7 +2362,13 @@ p:last-child {
     padding-right: 32px;
   }
   .slider_content_text {
-    margin-right: 0;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    padding-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
   }
   .slider_btn_box {
     margin-bottom: 32px;
