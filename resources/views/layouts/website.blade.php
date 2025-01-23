@@ -34,7 +34,7 @@
         <div class="row align-items-center">
           <div class="col-lg-2 col-6">
             <a class="logo img-fluid" href="{{ route('index') }}">
-              <img src="{{ asset('website/img/general/logo.jpg')}} " alt="" />
+              <img src="{{ asset('website/img/general/intentionally-daring-logo-full-color-rgb-2000px@144ppi.png')}} " alt="" />
             </a>
           </div>
           <!-- /.col-lg-2 -->
@@ -48,9 +48,9 @@
               <li><a href="{{ route('index')}}">Home</a></li>
               <li><a href="#about">About</a></li>
               <!-- <li><a href="#services">Services</a></li> -->
-              <li><a href="#works">Works</a></li>
+              <li><a href="#works">Work</a></li>
               <!-- <li><a href="#news">News</a></li> -->
-              <li><a href="#contact">Contact</a></li>
+             <!--  <li><a href="#contact">Connect With Us</a></li> -->
             </ul>
             <!-- /.list-unstyled -->
             <!-- ======================================================================= -->
@@ -142,8 +142,8 @@
         <ul class="list-unstyled d-flex align-items-center justify-content-center gap-4 my-4 footer_menu">
           <li><a href="{{route('index')}}">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#works">Works</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#works">Work</a></li>
+          <li><a href="#contact">Connect With Us</a></li>
         </ul>
         <!-- /.list-unstyled -->
         <ul class="list-unstyled d-flex justify-content-center gap-2 mt-4">
