@@ -25,7 +25,7 @@
 
   </head>
   <body>
-    
+
     <!-- ======================================================================= -->
     <!--                              HEADER START                               -->
     <!-- ======================================================================= -->
@@ -45,10 +45,10 @@
             <!-- ======================================================================= -->
             <ul
               class="list-unstyled d-flex align-items-center justify-content-center gap-4 mb-0 rdn_menu scroll_menu">
-              <li><a href="{{ route('index')}}">Home</a></li>
-              <li><a href="#about">About</a></li>
+              <li><a style="color: black; font-size: 20px;" href="{{ route('index')}}">Home</a></li>
+              <li><a style="color: black; font-size: 20px;" href="#about">About</a></li>
               <!-- <li><a href="#services">Services</a></li> -->
-              <li><a href="#works">Work</a></li>
+              <li><a style="color: black; font-size: 20px;" href="#works">Work</a></li>
               <!-- <li><a href="#news">News</a></li> -->
              <!--  <li><a href="#contact">Connect With Us</a></li> -->
             </ul>
@@ -130,7 +130,7 @@
     <!-- ======================================================================= -->
     <!--                               HEADER END                                -->
     <!-- ======================================================================= -->
-   
+
     @yield('content')
 
 
