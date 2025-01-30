@@ -79,22 +79,22 @@
           <div class="row">
             <div class="col-5 mb-4">
               <div class="slider_img">
-                <img class="img-fluid" src="{{ asset('website/img/slider/10.jpg') }}" alt="99 Lives Story" />
+                <img class="img-fluid" src="{{ asset('website/img/slider/tell your story.png') }}" alt="99 Lives Story" />
               </div>
             </div>
             <div class="col-7 mb-4">
               <div class="slider_img">
-                <img class="img-fluid" src="{{ asset('website/img/slider/10.jpg') }}" alt="Chamhembe Story" />
+                <img class="img-fluid" src="{{ asset('website/img/slider/create.png') }}" alt="Chamhembe Story" />
               </div>
             </div>
             <div class="col-7">
               <div class="slider_img">
-                <img class="img-fluid" src="{{ asset('website/img/slider/10.jpg') }}" alt="Delani Story" />
+                <img class="img-fluid" src="{{ asset('website/img/slider/say it for you.png') }}" alt="Delani Story" />
               </div>
             </div>
             <div class="col-5">
               <div class="slider_img">
-                <img class="img-fluid" src="{{ asset('website/img/slider/10.jpg') }}" alt="Manning Story" />
+                <img class="img-fluid" src="{{ asset('website/img/slider/market it.png') }}" alt="Manning Story" />
               </div>
             </div>
           </div>
@@ -130,26 +130,26 @@
       </div>
       <div class="slider_content_img col-lg-6">
         <div class="row">
-          <div class="col-5 mb-4">
-            <div class="slider_img">
-              <img class="img-fluid" src="{{ asset('website/img/slider/10.jpg') }}" alt="Happiness Book Cover" />
+            <div class="col-5 mb-4">
+                <div class="slider_img">
+                    <img class="img-fluid" src="{{ asset('website/img/slider/tell your story.png') }}" alt="99 Lives Story" />
+                </div>
             </div>
-          </div>
-          <div class="col-7 mb-4">
-            <div class="slider_img">
-              <img class="img-fluid" src="{{ asset('website/img/slider/10.jpg') }}" alt="Chamhembe Story" />
+            <div class="col-7 mb-4">
+                <div class="slider_img">
+                    <img class="img-fluid" src="{{ asset('website/img/slider/create.png') }}" alt="Chamhembe Story" />
+                </div>
             </div>
-          </div>
-          <div class="col-7">
-            <div class="slider_img">
-              <img class="img-fluid" src="{{ asset('website/img/slider/10.jpg') }}" alt="Delani Story" />
+            <div class="col-7">
+                <div class="slider_img">
+                    <img class="img-fluid" src="{{ asset('website/img/slider/say it for you.png') }}" alt="Delani Story" />
+                </div>
             </div>
-          </div>
-          <div class="col-5">
-            <div class="slider_img">
-              <img class="img-fluid" src="{{ asset('website/img/slider/10.jpg') }}" alt="Manning Story" />
+            <div class="col-5">
+                <div class="slider_img">
+                    <img class="img-fluid" src="{{ asset('website/img/slider/market it.png') }}" alt="Manning Story" />
+                </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
